@@ -6,4 +6,8 @@ What the Script Does
 
 The script fetches and displays the details of users who have created pull requests (PRs) on the Kubernetes GitHub repository. It shows how many PRs each user has created.
 
+
+Script output:
+
+
 ![alt text](image.png)

@@ -13,3 +13,7 @@ Result of lambda function:
 ![alt text](image.png)
 
 
+Identifying and Stopping Unused EC2 Instances and delete stopped instance.
+
+![alt text](image-1.png)
+

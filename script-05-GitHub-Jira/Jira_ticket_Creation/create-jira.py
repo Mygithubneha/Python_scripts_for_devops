@@ -6,8 +6,6 @@ import json
 
 url = "https://nehaavasekar.atlassian.net/rest/api/3/issue"
 
-API_TOKEN = ""
-
 auth = HTTPBasicAuth("<email-id>", API_TOKEN)
 
 headers = {

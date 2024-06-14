@@ -4,7 +4,9 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "/rest/api/3/issue"
+url = "https://nehaavasekar.atlassian.net/rest/api/3/issue"
+
+API_TOKEN = ""
 
 auth = HTTPBasicAuth("", API_TOKEN)
 
@@ -15,12 +17,26 @@ headers = {
 
 payload = json.dumps( {
   "fields": {
-
+    "description": {
+      "content": [
+        {
+          "content": [
+            {
+              "text": "My first jira ticket",
+              "type": "text"
+            }
+          ],
+          "type": "paragraph"
+        }
+      ],
+      "type": "doc",
+      "version": 1
+    },
     "project": {
       "key": "AB"
     },
     "issuetype": {
-      "id": "10001"
+      "id": "10006"
     },
     "summary": "First JIRA Ticket",
   },

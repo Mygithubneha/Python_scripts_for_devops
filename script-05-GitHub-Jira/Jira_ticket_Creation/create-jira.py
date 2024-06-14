@@ -4,7 +4,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "https://nehaavasekar.atlassian.net/rest/api/3/issue"
+url = "/rest/api/3/issue"
 
 auth = HTTPBasicAuth("", API_TOKEN)
 

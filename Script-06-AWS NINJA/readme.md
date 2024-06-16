@@ -18,3 +18,18 @@ Trigger Happy: Whenever an Amazon Elastic Block Store (EBS) volume is created, o
 Event-Driven Magic: Thanks to Amazon CloudWatch Events, we can monitor every move in our AWS landscape. These events empower us to keep a close eye on EBS volumes of type GP2 and transform them into the more efficient GP3 type, effortlessly.
 
 💡 Our innovative approach ensures that our cloud infrastructure remains optimized and compliant with ease. Join us on this journey of continuous improvement and excellence in cloud management! 🚀🌈
+
+
+# Final result of the project:
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-5.png)
+
+![alt text](image-7.png)
+
+![alt text](image-6.png)
+
+
